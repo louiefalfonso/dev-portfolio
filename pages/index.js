@@ -10,19 +10,11 @@ const Portfolio = dynamic(() => import("components/Portfolio"), {
 const Index = () => {
   return (
     <Layout>
-      {/* HOME */}
       <Home />
-      {/* /HOME */}
-      {/* ABOUT */}
       <About />
-      {/* /ABOUT */}
       <div className="tokyo_tm_portfolio_titles" />
-      {/* PORTFOLIO */}
       <Portfolio />
-      {/* /PORTFOLIO */}     
-      {/* CONTACT */}
       <Contact />
-      {/* /CONTACT */}
     </Layout>
   );
 };

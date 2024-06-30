@@ -2,9 +2,6 @@ import { Fragment } from "react";
 const Intro = () => {
   return (
     <Fragment>
-      <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
-      </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Louie Alfonso</h3>
         <span>Full Stack Developer</span>
@@ -24,6 +21,26 @@ const Intro = () => {
           outstanding, contemporary look-and-feel. With extensive knowledge of
           web mechanics, I’m able to optimize complex integrations to require
           little-to-no maintenance while running on their own for years.
+        </p>
+        <p></p>
+      </div>
+      <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
+        <h3 className="text-[20px] font-bold">Tech Stach:</h3>
+        <p className="techstack">
+          <img
+            src="assets/img/stacks/figma-original.svg"
+            title="Figma"
+            alt="Figma"
+            width={40}
+            height={40}
+          />
+          <img
+            src="assets/img/stacks/wordpress-plain.svg"
+            title="Figma"
+            alt="Figma"
+            width={40}
+            height={40}
+          />
         </p>
       </div>
 

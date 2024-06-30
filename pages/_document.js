@@ -22,6 +22,7 @@ export default function Document() {
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <title>Louie Alfonso - Online Portfolio</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
       </Head>
       <body>
         <Main />

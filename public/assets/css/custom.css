@@ -1,3 +1,7 @@
+.techstack{
+    display: flex;
+    margin-top: 10px;
+}
 #preloader{
     position: fixed;
     left: 0;
