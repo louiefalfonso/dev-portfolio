@@ -11,9 +11,12 @@ const Intro = () => {
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Louie Alfonso and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hi, my name is Louie Alfonso and I'm an enthusiastic frontend
+          developer with a passion for creating user-friendly, responsive
+          websites. I'm proficient in the core technologies like HTML, CSS, and
+          JavaScript, and I'm constantly learning new frameworks and libraries
+          to stay ahead of the curve. I'm eager to contribute my skills to a
+          team and gain experience working on real-world projects.
         </p>
         <p>
           One of my specialties is taking an idea from scratch and creating a

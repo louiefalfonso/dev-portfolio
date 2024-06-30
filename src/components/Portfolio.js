@@ -75,6 +75,29 @@ const detailData = [
     Image2: "assets/img/portfolio/cleantac/cleantac_preview_2.png",
     Image3: "assets/img/portfolio/cleantac/cleantac_preview_3.png",
   },
+  {
+    id: 4,
+    thumbnail: "assets/img/portfolio/roofer/roofer_header.png",
+    title: "Burton Roofing Merchants Services",
+    text: [
+      "Burton Roofing Services is a roofing company website project that specializes in all types of roofing services, from repairs to new installations. They use the latest technologies and materials to ensure that your roof is durable and energy-efficient. They also offer a variety of financing options to make it easy for you to get the roofing services you need.",
+      "The website was built using HTML5, CSS3, Bootstrap, React and NextJs. This allows us to provide our customers with a fast, responsive, and user-friendly experience. The website is also fully mobile-friendly, so you can view it on any device.",
+    ],
+    tools:
+      "Figma, HTML5, CSS3, SCSS, Bootstrap, JavaScript ReactJS, NextJS, Vercel",
+    category: "Web Development",
+    link: [
+      {
+        id: 1,
+        livesite: "https://nextjs-roofer.vercel.app/",
+        sourcecode: "https://github.com/louiefalfonso/nextjs-roofer",
+      },
+    ],
+    bigImage: "assets/img/portfolio/roofer/roofer_header.png",
+    Image1: "assets/img/portfolio/roofer/roofer_preview_1.png",
+    Image2: "assets/img/portfolio/roofer/roofer_preview_2.png",
+    Image3: "assets/img/portfolio/roofer/roofer_preview_3.png",
+  },
 ];
 const Portfolio = () => {
   const isotope = useRef();
@@ -120,9 +143,7 @@ const Portfolio = () => {
             <ul className="portfolio_list gallery_zoom ml-[-40px] list-none">
               <li className="webdev mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
-                  >
+                  <div className="entry tokyo_tm_portfolio_animation_wrap">
                     <a
                       className="popup_info"
                       href="#"
@@ -146,9 +167,7 @@ const Portfolio = () => {
               </li>
               <li className="webdev mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
-                  >
+                  <div className="entry tokyo_tm_portfolio_animation_wrap">
                     <a
                       className="popup_info"
                       href="#"
@@ -172,9 +191,7 @@ const Portfolio = () => {
               </li>
               <li className="webdev mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
-                  >
+                  <div className="entry tokyo_tm_portfolio_animation_wrap">
                     <a
                       className="popup_info"
                       href="#"
@@ -191,6 +208,30 @@ const Portfolio = () => {
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
                         data-img-url="assets/img/portfolio/cleantac/cleantac_header.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="webdev mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div className="entry tokyo_tm_portfolio_animation_wrap">
+                    <a
+                      className="popup_info"
+                      href="#"
+                      onClick={() => {
+                        setPortfolioDetailsModal(detailData[3]);
+                        modalToggle(true);
+                      }}
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/portfolio/roofer/roofer_header.png"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/roofer/roofer_header.png"
                       />
                     </a>
                   </div>
