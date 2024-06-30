@@ -2,6 +2,7 @@ import { Fragment } from "react";
 const Intro = () => {
   return (
     <Fragment>
+      
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Louie Alfonso</h3>
         <span>Full Stack Developer</span>
@@ -15,14 +16,7 @@ const Intro = () => {
           to stay ahead of the curve. I'm eager to contribute my skills to a
           team and gain experience working on real-world projects.
         </p>
-        <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
-        </p>
-        <p></p>
+       
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <h3 className="text-[20px] font-bold">Tech Stach:</h3>

@@ -13,9 +13,9 @@ const About = () => {
             </div>
           </div>
           <Intro />
+          <KnowledgeInterests />
         </div>
       </div>
-      <KnowledgeInterests />
     </SectionContainer>
   );
 };
