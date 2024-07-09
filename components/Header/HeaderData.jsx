@@ -12,15 +12,11 @@ export const headerData = {
     ],
     socialMediaLinks: [
         {
-            url: '#',
-            bootstrapIcon: 'bi bi-behance',
-        },
-        {
-            url: '#',
+            url: 'https://github.com/louiefalfonso',
             bootstrapIcon: 'bi bi-github',
         },
         {
-            url: '#',
+            url: 'https://www.linkedin.com/in/louie-alfonso/',
             bootstrapIcon: 'bi bi-linkedin',
         },
     ]
