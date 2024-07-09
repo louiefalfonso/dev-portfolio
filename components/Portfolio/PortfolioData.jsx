@@ -103,7 +103,7 @@ export const portfolioData = {
             tools: 'Figma, HTML5, CSS, JavaScript, React, NextJS',
             projectLink: {
                 title: 'https://github.com/louiefalfonso/nextjs-kidso',
-                ur: 'https://github.com/louiefalfonso/nextjs-kidso'
+                url: 'https://github.com/louiefalfonso/nextjs-kidso'
             },
             tech: [
                 {list: "HTML5: Provides the basic structure and content of the website."},
@@ -115,10 +115,10 @@ export const portfolioData = {
             features: [
                 {list: "Clean and Modern Design: Leverages Bootstrap and CSS3 to create a visually appealing and user-friendly website."},
                 {list: "Responsive Layout: Adapts seamlessly to different screen sizes, ensuring a smooth experience on desktops, tablets, and mobile devices."},
-                {list: "Compelling Content: Highlights Burton's services, products, and unique selling points through text, images, and potentially video."},
-                {list: "Clear Call to Action (CTA): Encourages visitors to contact Burton for a quote or additional information"},
+                {list: "Compelling Content: Highlights services, products, and unique selling points through text, images, and potentially video."},
+                {list: "Clear Call to Action (CTA): Encourages visitors to contact for a quote or additional information"},
                 {list: "Fast Loading Times: Optimizes code and utilizes Next.js functionalities to ensure a smooth user experience."},
-                {list: "SEO Friendly: Implements best practices for search engine optimization to improve Burton's online visibility. "},
+                {list: "SEO Friendly: Implements best practices for search engine optimization to improves online visibility. "},
             ],
             content: 'This project is a modern kindergarten and baby care website built using HTML, CSS, JavaScript, React, and NextJS. It features a clean and responsive design, as well as a variety of features to help parents and caregivers learn more about the kindergarten and baby care services offered, and to enroll their children.',
             content1: 'The Kidso Modern Kindergarten Baby Care Project is a valuable resource for parents and caregivers, and for the kindergarten and baby care provider. It is a well-designed and feature-rich website that is sure to be a success.',
@@ -153,7 +153,7 @@ export const portfolioData = {
             tools: 'Figma, HTML5, CSS, JavaScript, React, NextJS',
             projectLink: {
                 title: 'https://github.com/louiefalfonso/nextjs-gardenia',
-                ur: 'https://github.com/louiefalfonso/nextjs-gardenia'
+                url: 'https://github.com/louiefalfonso/nextjs-gardenia'
             },
             tech: [
                 {list: "HTML5: Provides the basic structure and content of the website."},
@@ -165,10 +165,10 @@ export const portfolioData = {
             features: [
                 {list: "Clean and Modern Design: Leverages Bootstrap and CSS3 to create a visually appealing and user-friendly website."},
                 {list: "Responsive Layout: Adapts seamlessly to different screen sizes, ensuring a smooth experience on desktops, tablets, and mobile devices."},
-                {list: "Compelling Content: Highlights Burton's services, products, and unique selling points through text, images, and potentially video."},
-                {list: "Clear Call to Action (CTA): Encourages visitors to contact Burton for a quote or additional information"},
+                {list: "Compelling Content: Highlights services, products, and unique selling points through text, images, and potentially video."},
+                {list: "Clear Call to Action (CTA): Encourages visitors to contact for a quote or additional information"},
                 {list: "Fast Loading Times: Optimizes code and utilizes Next.js functionalities to ensure a smooth user experience."},
-                {list: "SEO Friendly: Implements best practices for search engine optimization to improve Burton's online visibility. "},
+                {list: "SEO Friendly: Implements best practices for search engine optimization to improves online visibility. "},
             ],
             content: 'This project is a website for Gardenia Landscaping & Gardening Services, a landscaping and gardening company. It is built using HTML, CSS, JavaScript, React, and NextJS. It features a clean and responsive design, as well as a variety of features to help customers learn more about the company services and to request a quote.',
             content1: 'This website is a valuable resource for customers and for Gardenia Landscaping & Gardening Services. It is a well-designed and feature-rich website that is sure to be a success.',
@@ -203,7 +203,7 @@ export const portfolioData = {
             tools: 'Figma, HTML5, CSS, JavaScript, React, NextJS',
             projectLink: {
                 title: 'https://github.com/louiefalfonso/nextjs-cleantac',
-                ur: 'https://github.com/louiefalfonso/nextjs-cleantac'
+                url: 'https://github.com/louiefalfonso/nextjs-cleantac'
             },
             tech: [
                 {list: "HTML5: Provides the basic structure and content of the website."},
@@ -215,10 +215,10 @@ export const portfolioData = {
             features: [
                 {list: "Clean and Modern Design: Leverages Bootstrap and CSS3 to create a visually appealing and user-friendly website."},
                 {list: "Responsive Layout: Adapts seamlessly to different screen sizes, ensuring a smooth experience on desktops, tablets, and mobile devices."},
-                {list: "Compelling Content: Highlights Burton's services, products, and unique selling points through text, images, and potentially video."},
-                {list: "Clear Call to Action (CTA): Encourages visitors to contact Burton for a quote or additional information"},
+                {list: "Compelling Content: Highlights services, products, and unique selling points through text, images, and potentially video."},
+                {list: "Clear Call to Action (CTA): Encourages visitors to contact for a quote or additional information"},
                 {list: "Fast Loading Times: Optimizes code and utilizes Next.js functionalities to ensure a smooth user experience."},
-                {list: "SEO Friendly: Implements best practices for search engine optimization to improve Burton's online visibility. "},
+                {list: "SEO Friendly: Implements best practices for search engine optimization to improves online visibility. "},
             ],
             content: 'Cleantac Professional Cleaning Services is a leading provider of commercial and residential cleaning services. It is committed to providing clients with the highest quality cleaning services at competitive prices. The website is built using HTML, CSS, JavaScript, React, and Next.js.',
             content1: 'The homepage of our website includes a brief overview of our company, our services, and our contact information. We also have a dedicated portfolio page that features images and descriptions of our work. The website is also mobile-friendly, so you can easily view it on your smartphone or tablet.',
