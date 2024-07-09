@@ -35,25 +35,20 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                 <div className="section-xs pt-0">
                     <div className="container-fluid">
                         <div className="row g-0 g-lg-5 align-items-end">
-                            <div className="col-12 col-lg-6 order-lg-4 col-xl-4">
+                            <div className="col-12 col-lg-6 order-lg-6 col-xl-6">
                                 <div className="styled-box style-2">
                                     <h5>Source File:</h5>
-                                    <a className="link-hover" href={project.projectLink.url}>{project.projectLink.title}</a>
+                                    <a className="link-hover" target="_blank" href={project.projectLink.url}>{project.projectLink.title}</a>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6 order-lg-4 col-xl-4">
+                            <div className="col-12 col-lg-6 order-lg-6 col-xl-6">
                                 <div className="styled-box style-2">
                                     <h5>Live Site</h5>
                                     <p>{project.site}</p>
-                                    <a className="link-hover" href={project.siteLink.url}>{project.siteLink.title}</a>
+                                    <a className="link-hover" target="_blank" href={project.siteLink.url}>{project.siteLink.title}</a>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6 order-lg-4 col-xl-4">
-                                <div className="styled-box style-2">
-                                    <h5>Tools Used:</h5>
-                                    <span>{project.tools}</span>
-                                </div>
-                            </div>
+                            
                         </div>{/* end row */}
                     </div>{/* end container-fluid */}
                 </div>
@@ -62,8 +57,21 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                 {/* Project text */}
                 <div className="section-xs pt-0">
                     <div className="container-fluid">
-                        <div className="fs-3" dangerouslySetInnerHTML={{ __html: project.content }} /><br/><br/>
-                        <div className="fs-3" dangerouslySetInnerHTML={{ __html: project.content1 }} />
+                        <h5>Project Overview:</h5>
+                        <div dangerouslySetInnerHTML={{ __html: project.content }} /><br/>
+                        <h5>Technologies Used:</h5>
+                        {project.tech.map((item, index) => (
+                            <ul>
+                                <li>{item.list}</li>
+                            </ul>
+                         ))}
+                         <br/>
+                         <h5>Project Features:</h5>
+                        {project.features.map((item, index) => (
+                            <ul>
+                                <li>{item.list}</li>
+                            </ul>
+                         ))}
                     </div>{/* end container-fluid */}
                 </div>
                 {/* end Project text */}
@@ -75,20 +83,6 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                             {project.images.map((item, index) => (
                                 <div key={index} className="col-12 col-md-6 custom-col">
                                     <Image src={item.image} alt={item.alt} className="w-100" />
-                                </div>
-                            ))}
-
-                            {/* Images Lightbox */}
-                            {project.imagesLightbox.map((item, index) => (
-                                <div key={index} className="col-12 col-md-6 custom-col">
-                                    <div className="lightbox-item" onClick={() => openLightbox(item.image)}>
-                                        <div className="glightbox">
-                                            <Image src={item.image} alt={item.alt} placeholder="blur" />
-                                            <div className="lightbox-icon">
-                                                <i className="bi bi-arrows-fullscreen"></i>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             ))}
                         </div>{/* end row */}
