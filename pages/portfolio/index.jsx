@@ -55,10 +55,6 @@ const PortfolioPage = () => {
                                                 <Image src={item.mainImage} alt={item.title} />
                                             </div>
                                             {/* Mobile Caption */}
-                                            <div className="portfolio-mobile-caption">
-                                                <h4>{item.title}</h4>
-                                                <span>{item.category}</span>
-                                            </div>
                                         </Link>
                                     </div>
                                 </div>
