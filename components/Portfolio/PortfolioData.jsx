@@ -10,10 +10,11 @@ import GardImg2 from "@/public/images/gardenia_preview_2.webp";
 import GardImg3 from "@/public/images/gardenia_preview_3.webp";
 import GardImg4 from "@/public/images/gardenia_preview_4.webp";
 
-import CleanImg from '@/public/images/cleantac_header.png';
-import CleanImg1 from '@/public/images/cleantac_preview_1.png';
-import CleanImg2 from '@/public/images/cleantac_preview_2.png';
-import CleanImg3 from '@/public/images/cleantac_preview_3.png';
+import CleanImg from "@/public/images/cleantac_header.webp";
+import CleanImg1 from "@/public/images/cleantac_preview_1.webp";
+import CleanImg2 from "@/public/images/cleantac_preview_2.webp";
+import CleanImg3 from "@/public/images/cleantac_preview_3.webp";
+import CleanImg4 from "@/public/images/cleantac_preview_4.webp";
 
 import BurtImg from "@/public/images/roofer_header.webp";
 import BurtImg1 from "@/public/images/roofer_preview_1.webp";
@@ -348,6 +349,10 @@ export const portfolioData = {
         },
         {
           image: CleanImg3,
+          alt: "Cleantac Professional Services",
+        },
+        {
+          image: CleanImg4,
           alt: "Cleantac Professional Services",
         },
       ],
