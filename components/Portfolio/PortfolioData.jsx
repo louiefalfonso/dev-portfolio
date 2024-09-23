@@ -22,6 +22,13 @@ import BurtImg2 from "@/public/images/roofer_preview_2.webp";
 import BurtImg3 from "@/public/images/roofer_preview_3.webp";
 import BurtImg4 from "@/public/images/roofer_preview_4.webp";
 
+import CiteCoreImg from "@/public/images/citecore_header.png";
+import CiteCoreImg1 from "@/public/images/citecore_preview_1.png";
+import CiteCoreImg2 from "@/public/images/citecore_preview_2.png";
+import CiteCoreImg3 from "@/public/images/citecore_preview_3.png";
+import CiteCoreImg4 from "@/public/images/citecore_preview_4.png";
+
+
 
 export const portfolioData = {
   mainData: {
@@ -120,6 +127,77 @@ export const portfolioData = {
         },
       ],
 
+      trending: true,
+    },
+    {
+      title: "Citicore Energy Ticket System",
+      slug: "citecore-system",
+      description:
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      keywords: "key1, key2, key3",
+      category: "web",
+      siteLink: {
+        title: "https://mern-citecoreapp.netlify.app",
+        url: "https://mern-citecoreapp.netlify.app",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-ticketsystem-app",
+        url: "https://github.com/louiefalfonso/mern-ticketsystem-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
+        },
+        {
+          list: "Authentication: Json Web TOken (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Ticket System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: superadmin@citicoreenergy.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      content1:
+        "icket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      mainImage: CiteCoreImg,
+      images: [
+        {
+          image: CiteCoreImg1,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg2,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg3,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg4,
+          alt: "Citicore Energy Ticket System",
+        },
+      ],
       trending: true,
     },
     {
