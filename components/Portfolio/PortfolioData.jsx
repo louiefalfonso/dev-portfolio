@@ -28,6 +28,18 @@ import CiteCoreImg2 from "@/public/images/citecore_preview_2.png";
 import CiteCoreImg3 from "@/public/images/citecore_preview_3.png";
 import CiteCoreImg4 from "@/public/images/citecore_preview_4.png";
 
+import PaskrImg from "@/public/images/paskr_header.png";
+import PaskrImg1 from "@/public/images/paskr_preview_1.png";
+import PaskrImg2 from "@/public/images/paskr_preview_2.png";
+import PaskrImg3 from "@/public/images/paskr_preview_3.png";
+import PaskrImg4 from "@/public/images/paskr_preview_4.png";
+
+import NirvasianImg from "@/public/images/nirvasian_header.png";
+import NirvasianImg1 from "@/public/images/nirvasian_preview_1.png";
+import NirvasianImg2 from "@/public/images/nirvasian_preview_2.png";
+import NirvasianImg3 from "@/public/images/nirvasian_preview_3.png";
+import NirvasianImg4 from "@/public/images/nirvasian_preview_4.png";
+
 
 
 export const portfolioData = {
@@ -137,8 +149,8 @@ export const portfolioData = {
       keywords: "key1, key2, key3",
       category: "web",
       siteLink: {
-        title: "https://mern-citecoreapp.netlify.app",
-        url: "https://mern-citecoreapp.netlify.app",
+        title: "https://mern-citecoreapp.netlify.app/",
+        url: "https://mern-citecoreapp.netlify.app/",
       },
       projectLink: {
         title: "https://github.com/louiefalfonso/mern-ticketsystem-app",
@@ -152,7 +164,7 @@ export const portfolioData = {
           list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
         },
         {
-          list: "Authentication: Json Web TOken (JWT)",
+          list: "Authentication: Json Web Token (JWT)",
         },
         {
           list: "Deployment: Netlify, Render",
@@ -178,7 +190,7 @@ export const portfolioData = {
       content:
         "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
       content1:
-        "icket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
       mainImage: CiteCoreImg,
       images: [
         {
@@ -200,6 +212,7 @@ export const portfolioData = {
       ],
       trending: true,
     },
+
     {
       title: "Kidso Modern Kindergarten",
       slug: "kidso-modern",
@@ -280,6 +293,77 @@ export const portfolioData = {
       trending: true,
     },
     {
+      title: "PASKR Task Management System",
+      slug: "paskr-system",
+      description:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      keywords: "key1, key2, key3",
+      category: "web",
+      siteLink: {
+        title: "https://paskrtaskpp.netlify.app/login",
+        url: "https://paskrtaskpp.netlify.app/login",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-paskr-app",
+        url: "https://github.com/louiefalfonso/mern-paskr-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Redux Toolkit, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB,",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Task Management System with Express, MongoDB, ReactJs and Redux Toolkit",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      content1:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      mainImage: PaskrImg,
+      images: [
+        {
+          image: PaskrImg1,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg2,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg3,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg4,
+          alt: "PASKR Task Management System",
+        },
+      ],
+      trending: true,
+    },
+    {
       title: "Gardenia Landscaping Services",
       slug: "gardenia-services",
       description:
@@ -356,6 +440,77 @@ export const portfolioData = {
         },
       ],
 
+      trending: true,
+    },
+    {
+      title: "Nirvasian Inventory System",
+      slug: "nirvasian-system",
+      description:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      keywords: "key1, key2, key3",
+      category: "web",
+      siteLink: {
+        title: "https://nirvasianapp.netlify.app/login",
+        url: "https://nirvasianapp.netlify.app/login",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-nirvasian-app",
+        url: "https://github.com/louiefalfonso/mern-nirvasian-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Inventory System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      content1:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      mainImage: NirvasianImg,
+      images: [
+        {
+          image: NirvasianImg1,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg2,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg3,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg4,
+          alt: "Nirvasian Inventory System",
+        },
+      ],
       trending: true,
     },
     {
