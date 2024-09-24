@@ -630,16 +630,16 @@ export const portfolioData = {
       ],
       features: [
         {
-          list: "Full-stack Inventory System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+          list: "Full-stack Hospital Management System Sunlife Financial Insurance Policy Management System using Spring Boot 3 & Spring Security 6",
         },
         {
-          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+          list: "Use JWT for Authentication and Create a Login System in React, Vite, Headless UI with Tailwind CSS for styling UI.",
         },
         {
-          list: "Deployed Backend at Render  & Frontend at Netlify",
+          list: "Deployed Render, Netlify & AWS Elastic Beanstalk",
         },
         {
-          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+          list: "Demo Login: username: johmsmith@email.com |  password: 87TupR5SvUlNtFY8 ",
         },
       ],
       content:
