@@ -40,7 +40,11 @@ import NirvasianImg2 from "@/public/images/nirvasian_preview_2.png";
 import NirvasianImg3 from "@/public/images/nirvasian_preview_3.png";
 import NirvasianImg4 from "@/public/images/nirvasian_preview_4.png";
 
-
+import StLukesImg from "@/public/images/stlukes_header.png";
+import StLukesImg1 from "@/public/images/stlukes_preview_1.png";
+import StLukesImg2 from "@/public/images/stlukes_preview_2.png";
+import StLukesImg3 from "@/public/images/stlukes_preview_3.png";
+import StLukesImg4 from "@/public/images/stlukes_preview_4.png";
 
 export const portfolioData = {
   mainData: {
@@ -587,6 +591,78 @@ export const portfolioData = {
         {
           image: CleanImg4,
           alt: "Cleantac Professional Services",
+        },
+      ],
+      trending: true,
+    },
+    {
+      title: "St. Luke's Hospital Management System",
+      slug: "stlukes-system",
+      description:
+        "This project aims to digitize and streamline the operations of St. Luke's Medical Center through a robust hospital management system. The system is designed to enhance efficiency, improve data security, and provide a seamless user experience for both patients and healthcare professionals.",
+      keywords: "key1, key2, key3",
+      category: "web",
+      siteLink: {
+        title: "https://springboot3-stlukesapp.netlify.app/login",
+        url: "https://springboot3-stlukesapp.netlify.app/login",
+      },
+      projectLink: {
+        title:
+          "https://github.com/louiefalfonso/springboot-sunlife-insurancemngt",
+        url: "https://github.com/louiefalfonso/springboot-sunlife-insurancemngt",
+      },
+      tech: [
+        {
+          list: " Frontend: React, React Hooks, Vite, Tailwind CSS",
+        },
+        {
+          list: "Backend: Spring Boot Web, Spring Data JPA, Lombok, Spring Security 6, Maven",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Database: PostGres, RDS Postgres",
+        },
+        {
+          list: "Deployment: Docker, Github Actions, Netlify, Render, AWS Elastic Beanstalk & S3",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Inventory System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "This project aims to digitize and streamline the operations of St. Luke's Medical Center through a robust hospital management system. The system is designed to enhance efficiency, improve data security, and provide a seamless user experience for both patients and healthcare professionals.",
+      content1:
+        "This project aims to digitize and streamline the operations of St. Luke's Medical Center through a robust hospital management system. The system is designed to enhance efficiency, improve data security, and provide a seamless user experience for both patients and healthcare professionals.",
+      mainImage: StLukesImg,
+      images: [
+        {
+          image: StLukesImg1,
+          alt: "St. Luke's Hospital Management System",
+        },
+        {
+          image: StLukesImg4,
+          alt: "St. Luke's Hospital Management System",
+        },
+        {
+          image: StLukesImg2,
+          alt: "St. Luke's Hospital Management System",
+        },
+        {
+          image: StLukesImg4,
+          alt: "St. Luke's Hospital Management System",
         },
       ],
       trending: true,
