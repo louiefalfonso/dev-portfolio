@@ -613,7 +613,7 @@ export const portfolioData = {
       },
       tech: [
         {
-          list: " Frontend: React, React Hooks, Vite, Tailwind CSS",
+          list: "Frontend: React, React Hooks, Vite, Tailwind CSS",
         },
         {
           list: "Backend: Spring Boot Web, Spring Data JPA, Lombok, Spring Security 6, Maven",
