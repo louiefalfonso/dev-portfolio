@@ -454,8 +454,8 @@ export const portfolioData = {
       keywords: "key1, key2, key3",
       category: "web",
       siteLink: {
-        title: "https://nirvasianapp.netlify.app/login",
-        url: "https://nirvasianapp.netlify.app/login",
+        title: "https://nirvasianapp.netlify.app",
+        url: "https://nirvasianapp.netlify.app",
       },
       projectLink: {
         title: "https://github.com/louiefalfonso/mern-nirvasian-app",
