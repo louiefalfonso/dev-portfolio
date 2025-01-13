@@ -46,6 +46,18 @@ import StLukesImg2 from "@/public/images/stlukes_preview_2.png";
 import StLukesImg3 from "@/public/images/stlukes_preview_3.png";
 import StLukesImg4 from "@/public/images/stlukes_preview_4.png";
 
+import PristineImg from "@/public/images/pristine_header.png";
+import PristineImg1 from "@/public/images/pristine_preview_1.png";
+import PristineImg2 from "@/public/images/pristine_preview_2.png";
+import PristineImg3 from "@/public/images/pristine_preview_3.png";
+import PristineImg4 from "@/public/images/pristine_preview_4.png";
+
+import HomeServeImg from "@/public/images/homeserve_header.png";
+import HomeServeImg1 from "@/public/images/homeserve_preview_1.png";
+import HomeServeImg2 from "@/public/images/homeserve_preview_2.png";
+import HomeServeImg3 from "@/public/images/homeserve_preview_3.png";
+import HomeServeImg4 from "@/public/images/homeserve_preview_4.png";
+
 export const portfolioData = {
   mainData: {
     title: "My Latest Works",
@@ -68,6 +80,160 @@ export const portfolioData = {
     },
   ],
   projects: [
+    {
+      title: "Homeserve Construction Services",
+      slug: "homeserve-construction",
+      description:
+        "This project showcases a short case study website for Homeserve Construction Services, a leading provider of home repair and improvement services. Built with modern web development technologies, the website aims to effectively communicate service offerings, build brand trust, and drive customer inquiries.",
+      keywords: "key1, key2, key3",
+      category: "front",
+      siteLink: {
+        title: "https://nextjs-homeserve.vercel.app/",
+        url: "https://nextjs-homeserve.vercel.app/",
+      },
+      tools: "HTML5, CSS, JavaScript, React, NextJS",
+      projectLink: {
+        title: "https://github.com/louiefalfonso/nextjs-homeserve",
+        url: "https://github.com/louiefalfonso/nextjs-homeserve",
+      },
+      tech: [
+        {
+          list: "HTML5: Provides the basic structure and content of the website.",
+        },
+        {
+          list: "CSS3: Styles the website's visual elements, ensuring a clean and responsive design.",
+        },
+        {
+          list: "Bootstrap: Utilizes a pre-built CSS framework for faster development and responsive design.",
+        },
+        {
+          list: "React: A popular JavaScript library for building interactive user interfaces.",
+        },
+        {
+          list: "Next.js: A React framework that offers server-side rendering (SSR) and static site generation (SSG) functionalities for enhanced performance and SEO.",
+        },
+      ],
+      features: [
+        {
+          list: "Clean and Modern Design: Leverages Bootstrap and CSS3 to create a visually appealing and user-friendly website.",
+        },
+        {
+          list: "Responsive Layout: Adapts seamlessly to different screen sizes, ensuring a smooth experience on desktops, tablets, and mobile devices.",
+        },
+        {
+          list: "Compelling Content: Highlights Pristine's services (e.g., plumbing repair, installation, maintenance), expertise, and customer testimonials through text, images, and potentially video.",
+        },
+        {
+          list: "Clear Call to Action (CTA): Encourages visitors to contact Pristine for a quote, schedule service, or learn more about their services.",
+        },
+        {
+          list: "Fast Loading Times: Optimizes code and utilizes Next.js functionalities to ensure a smooth user experience.",
+        },
+        {
+          list: "SEO Friendly: Implements best practices for search engine optimization to improve Pristine's online visibility. ",
+        },
+      ],
+      content:
+        "This project showcases a short case study website for Homeserve Construction Services, a leading provider of home repair and improvement services. Built with modern web development technologies, the website aims to effectively communicate service offerings, build brand trust, and drive customer inquiries. This framework provides a strong foundation for a successful Homeserve Construction Services website that effectively communicates their value proposition and drives customer engagement.",
+      mainImage: HomeServeImg,
+      images: [
+        {
+          image: HomeServeImg1,
+          alt: "Homeserve Construction Services",
+        },
+        {
+          image: HomeServeImg2,
+          alt: "Homeserve Construction Services",
+        },
+        {
+          image: HomeServeImg3,
+          alt: "Homeserve Construction Services",
+        },
+        {
+          image: HomeServeImg4,
+          alt: "Homeserve Construction Services",
+        },
+      ],
+
+      trending: true,
+    },
+    {
+      title: "Pristine Plumbing Services",
+      slug: "pristine-plumbing",
+      description:
+        "This project showcases a short case study website for Pristine Plumbing Service, a company specializing in residential and commercial plumbing services. Built with modern web development technologies, the website aims to effectively communicate offerings and expertise to potential clients.",
+      keywords: "key1, key2, key3",
+      category: "front",
+      siteLink: {
+        title: "https://nextjs-plumber.vercel.app/",
+        url: "https://nextjs-plumber.vercel.app/",
+      },
+      tools: "HTML5, CSS, JavaScript, React, NextJS",
+      projectLink: {
+        title: "https://github.com/louiefalfonso/nextjs-plumber",
+        url: "https://github.com/louiefalfonso/nextjs-plumber",
+      },
+      tech: [
+        {
+          list: "HTML5: Provides the basic structure and content of the website.",
+        },
+        {
+          list: "CSS3: Styles the website's visual elements, ensuring a clean and responsive design.",
+        },
+        {
+          list: "Bootstrap: Utilizes a pre-built CSS framework for faster development and responsive design.",
+        },
+        {
+          list: "React: A popular JavaScript library for building interactive user interfaces.",
+        },
+        {
+          list: "Next.js: A React framework that offers server-side rendering (SSR) and static site generation (SSG) functionalities for enhanced performance and SEO.",
+        },
+      ],
+      features: [
+        {
+          list: "Clean and Modern Design: Leverages Bootstrap and CSS3 to create a visually appealing and user-friendly website.",
+        },
+        {
+          list: "Responsive Layout: Adapts seamlessly to different screen sizes, ensuring a smooth experience on desktops, tablets, and mobile devices.",
+        },
+        {
+          list: "Compelling Content: Highlights Pristine's services (e.g., plumbing repair, installation, maintenance), expertise, and customer testimonials through text, images, and potentially video.",
+        },
+        {
+          list: "Clear Call to Action (CTA): Encourages visitors to contact Pristine for a quote, schedule service, or learn more about their services.",
+        },
+        {
+          list: "Fast Loading Times: Optimizes code and utilizes Next.js functionalities to ensure a smooth user experience.",
+        },
+        {
+          list: "SEO Friendly: Implements best practices for search engine optimization to improve Pristine's online visibility. ",
+        },
+      ],
+      content:
+        "This project showcases a short case study website for Pristine Plumbing Service, a company specializing in residential and commercial plumbing services. Built with modern web development technologies, the website aims to effectively communicate offerings and expertise to potential clients. This format adapts the original to specifically suit Pristine Plumbing Service, highlighting their services and focusing on relevant features.",
+      mainImage: PristineImg,
+      images: [
+        {
+          image: PristineImg1,
+          alt: "Pristine Plumbing Service",
+        },
+        {
+          image: PristineImg2,
+          alt: "Pristine Plumbing Service",
+        },
+        {
+          image: PristineImg3,
+          alt: "Pristine Plumbing Service",
+        },
+        {
+          image: PristineImg4,
+          alt: "Pristine Plumbing Service",
+        },
+      ],
+
+      trending: true,
+    },
     {
       title: "Burton Roofing Merchants",
       slug: "burton-roofing",
@@ -145,7 +311,6 @@ export const portfolioData = {
 
       trending: true,
     },
-
     {
       title: "Kidso Modern Kindergarten",
       slug: "kidso-modern",
@@ -225,7 +390,6 @@ export const portfolioData = {
 
       trending: true,
     },
-
     {
       title: "Gardenia Landscaping Services",
       slug: "gardenia-services",
@@ -303,7 +467,7 @@ export const portfolioData = {
         },
       ],
 
-      trending: true,
+      trending: false,
     },
     {
       title: "Cleantac Professional Services",
@@ -381,7 +545,7 @@ export const portfolioData = {
           alt: "Cleantac Professional Services",
         },
       ],
-      trending: true,
+      trending: false,
     },
     {
       title: "St. Luke's Hospital Management System",
