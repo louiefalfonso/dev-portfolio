@@ -57,14 +57,14 @@ export const portfolioData = {
   },
   navigationList: [
     {
-      title: "Web Development",
-      classes: "web",
-      dataFilter: ".web",
+      title: "Frontend Development",
+      classes: "front",
+      dataFilter: ".front",
     },
     {
-      title: "Graphics Design",
-      classes: "graphics",
-      dataFilter: ".graphics",
+      title: "Full Stack Development",
+      classes: "fullstack",
+      dataFilter: ".fullstack",
     },
   ],
   projects: [
@@ -74,7 +74,7 @@ export const portfolioData = {
       description:
         "Burton Roofing Services is a roofing company website project that specializes in all types of roofing services, from repairs to new installations. They use the latest technologies and materials to ensure that your roof is durable and energy-efficient. They also offer a variety of financing options to make it easy for you to get the roofing services you need.",
       keywords: "key1, key2, key3",
-      category: "web",
+      category: "front",
       siteLink: {
         title: "https://nextjs-roofer.vercel.app/",
         url: "https://nextjs-roofer.vercel.app/",
@@ -145,77 +145,6 @@ export const portfolioData = {
 
       trending: true,
     },
-    {
-      title: "Citicore Energy Ticket System",
-      slug: "citecore-system",
-      description:
-        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
-      keywords: "key1, key2, key3",
-      category: "web",
-      siteLink: {
-        title: "https://mern-citecoreapp.netlify.app/",
-        url: "https://mern-citecoreapp.netlify.app/",
-      },
-      projectLink: {
-        title: "https://github.com/louiefalfonso/mern-ticketsystem-app",
-        url: "https://github.com/louiefalfonso/mern-ticketsystem-app",
-      },
-      tech: [
-        {
-          list: "Frontend: React.js, Tailwind CSS, Headless UI",
-        },
-        {
-          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
-        },
-        {
-          list: "Authentication: Json Web Token (JWT)",
-        },
-        {
-          list: "Deployment: Netlify, Render",
-        },
-        {
-          list: "Visualization: Charts.js",
-        },
-      ],
-      features: [
-        {
-          list: "Full-stack Ticket System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
-        },
-        {
-          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
-        },
-        {
-          list: "Deployed Backend at Render  & Frontend at Netlify",
-        },
-        {
-          list: "Demo Login: username: superadmin@citicoreenergy.com |  password: 87TupR5SvUlNtFY8 ",
-        },
-      ],
-      content:
-        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
-      content1:
-        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
-      mainImage: CiteCoreImg,
-      images: [
-        {
-          image: CiteCoreImg1,
-          alt: "Citicore Energy Ticket System",
-        },
-        {
-          image: CiteCoreImg2,
-          alt: "Citicore Energy Ticket System",
-        },
-        {
-          image: CiteCoreImg3,
-          alt: "Citicore Energy Ticket System",
-        },
-        {
-          image: CiteCoreImg4,
-          alt: "Citicore Energy Ticket System",
-        },
-      ],
-      trending: true,
-    },
 
     {
       title: "Kidso Modern Kindergarten",
@@ -223,7 +152,7 @@ export const portfolioData = {
       description:
         "This project is a modern kindergarten and baby care website built using HTML, CSS, JavaScript, React, and NextJS. It features a clean and responsive design, as well as a variety of features to help parents and caregivers learn more about the kindergarten and baby care services offered, and to enroll their children. The Kidso Modern Kindergarten Baby Care Project is a valuable resource for parents and caregivers, and for the kindergarten and baby care provider. It is a well-designed and feature-rich website that is sure to be a success.",
       keywords: "key1, key2, key3",
-      category: "web",
+      category: "front",
       siteLink: {
         title: "https://nextjs-kidso.vercel.app/",
         url: "https://nextjs-kidso.vercel.app/",
@@ -296,84 +225,14 @@ export const portfolioData = {
 
       trending: true,
     },
-    {
-      title: "PASKR Task Management System",
-      slug: "paskr-system",
-      description:
-        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
-      keywords: "key1, key2, key3",
-      category: "web",
-      siteLink: {
-        title: "https://paskrtaskpp.netlify.app/login",
-        url: "https://paskrtaskpp.netlify.app/login",
-      },
-      projectLink: {
-        title: "https://github.com/louiefalfonso/mern-paskr-app",
-        url: "https://github.com/louiefalfonso/mern-paskr-app",
-      },
-      tech: [
-        {
-          list: "Frontend: React.js, Redux Toolkit, Tailwind CSS, Headless UI",
-        },
-        {
-          list: "Backend: Node.js, Express.js, MongoDB,",
-        },
-        {
-          list: "Authentication: Json Web Token (JWT)",
-        },
-        {
-          list: "Deployment: Netlify, Render",
-        },
-        {
-          list: "Visualization: Charts.js",
-        },
-      ],
-      features: [
-        {
-          list: "Full-stack Task Management System with Express, MongoDB, ReactJs and Redux Toolkit",
-        },
-        {
-          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
-        },
-        {
-          list: "Deployed Backend at Render  & Frontend at Netlify",
-        },
-        {
-          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
-        },
-      ],
-      content:
-        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
-      content1:
-        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
-      mainImage: PaskrImg,
-      images: [
-        {
-          image: PaskrImg1,
-          alt: "PASKR Task Management System",
-        },
-        {
-          image: PaskrImg2,
-          alt: "PASKR Task Management System",
-        },
-        {
-          image: PaskrImg3,
-          alt: "PASKR Task Management System",
-        },
-        {
-          image: PaskrImg4,
-          alt: "PASKR Task Management System",
-        },
-      ],
-      trending: true,
-    },
+
     {
       title: "Gardenia Landscaping Services",
       slug: "gardenia-services",
       description:
         "This project is a website for Gardenia Landscaping & Gardening Services, a landscaping and gardening company. It is built using HTML, CSS, JavaScript, React, and NextJS. It features a clean and responsive design, as well as a variety of features to help customers learn more about the company services and to request a quote.",
       keywords: "key1, key2, key3",
-      category: "web",
+      category: "front",
       siteLink: {
         title: "https://nextjs-gardenia.vercel.app/",
         url: "https://nextjs-gardenia.vercel.app/",
@@ -447,83 +306,12 @@ export const portfolioData = {
       trending: true,
     },
     {
-      title: "Nirvasian Inventory System",
-      slug: "nirvasian-system",
-      description:
-        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
-      keywords: "key1, key2, key3",
-      category: "web",
-      siteLink: {
-        title: "https://nirvasianapp.netlify.app",
-        url: "https://nirvasianapp.netlify.app",
-      },
-      projectLink: {
-        title: "https://github.com/louiefalfonso/mern-nirvasian-app",
-        url: "https://github.com/louiefalfonso/mern-nirvasian-app",
-      },
-      tech: [
-        {
-          list: "Frontend: React.js, Tailwind CSS, Headless UI",
-        },
-        {
-          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
-        },
-        {
-          list: "Authentication: Json Web Token (JWT)",
-        },
-        {
-          list: "Deployment: Netlify, Render",
-        },
-        {
-          list: "Visualization: Charts.js",
-        },
-      ],
-      features: [
-        {
-          list: "Full-stack Inventory System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
-        },
-        {
-          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
-        },
-        {
-          list: "Deployed Backend at Render  & Frontend at Netlify",
-        },
-        {
-          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
-        },
-      ],
-      content:
-        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
-      content1:
-        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
-      mainImage: NirvasianImg,
-      images: [
-        {
-          image: NirvasianImg1,
-          alt: "Nirvasian Inventory System",
-        },
-        {
-          image: NirvasianImg2,
-          alt: "Nirvasian Inventory System",
-        },
-        {
-          image: NirvasianImg3,
-          alt: "Nirvasian Inventory System",
-        },
-        {
-          image: NirvasianImg4,
-          alt: "Nirvasian Inventory System",
-        },
-      ],
-      trending: true,
-    },
-    {
       title: "Cleantac Professional Services",
       slug: "clentac-services",
       description:
         "Cleantac Professional Cleaning Services is a leading provider of commercial and residential cleaning services. It is committed to providing clients with the highest quality cleaning services at competitive prices. The website is built using HTML, CSS, JavaScript, React, and Next.js.",
       keywords: "key1, key2, key3",
-      category: "web",
+      category: "front",
       siteLink: {
         title: "https://nextjs-cleantac.vercel.app/",
         url: "https://nextjs-cleantac.vercel.app/",
@@ -601,7 +389,7 @@ export const portfolioData = {
       description:
         "This project aims to digitize and streamline the operations of St. Luke's Medical Center through a robust hospital management system. The system is designed to enhance efficiency, improve data security, and provide a seamless user experience for both patients and healthcare professionals.",
       keywords: "key1, key2, key3",
-      category: "web",
+      category: "fullstack",
       siteLink: {
         title: "https://springboot3-stlukesapp.netlify.app/login",
         url: "https://springboot3-stlukesapp.netlify.app/login",
@@ -665,7 +453,220 @@ export const portfolioData = {
           alt: "St. Luke's Hospital Management System",
         },
       ],
-      trending: true,
+      trending: false,
+    },
+    {
+      title: "Citicore Energy Ticket System",
+      slug: "citecore-system",
+      description:
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      keywords: "key1, key2, key3",
+      category: "fullstack",
+      siteLink: {
+        title: "https://mern-citecoreapp.netlify.app/",
+        url: "https://mern-citecoreapp.netlify.app/",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-ticketsystem-app",
+        url: "https://github.com/louiefalfonso/mern-ticketsystem-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Ticket System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: superadmin@citicoreenergy.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      content1:
+        "Ticket system built with the MERN stack that allows teams to manage bugs, requests, and other support tickets. Utilizes Charts.js to visualize and display a summary of all available tickets.",
+      mainImage: CiteCoreImg,
+      images: [
+        {
+          image: CiteCoreImg1,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg2,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg3,
+          alt: "Citicore Energy Ticket System",
+        },
+        {
+          image: CiteCoreImg4,
+          alt: "Citicore Energy Ticket System",
+        },
+      ],
+      trending: false,
+    },
+    {
+      title: "PASKR Task Management System",
+      slug: "paskr-system",
+      description:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      keywords: "key1, key2, key3",
+      category: "fullstack",
+      siteLink: {
+        title: "https://paskrtaskpp.netlify.app/login",
+        url: "https://paskrtaskpp.netlify.app/login",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-paskr-app",
+        url: "https://github.com/louiefalfonso/mern-paskr-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Redux Toolkit, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB,",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Task Management System with Express, MongoDB, ReactJs and Redux Toolkit",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      content1:
+        "PASKR is a comprehensive cloud-based task management system designed to streamline workflows and enhance productivity. Leveraging the powerful MERN stack, PASKR offers a robust platform for managing tasks, collaborating with teams, and tracking progress",
+      mainImage: PaskrImg,
+      images: [
+        {
+          image: PaskrImg1,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg2,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg3,
+          alt: "PASKR Task Management System",
+        },
+        {
+          image: PaskrImg4,
+          alt: "PASKR Task Management System",
+        },
+      ],
+      trending: false,
+    },
+    {
+      title: "Nirvasian Inventory System",
+      slug: "nirvasian-system",
+      description:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      keywords: "key1, key2, key3",
+      category: "fullstack",
+      siteLink: {
+        title: "https://nirvasianapp.netlify.app",
+        url: "https://nirvasianapp.netlify.app",
+      },
+      projectLink: {
+        title: "https://github.com/louiefalfonso/mern-nirvasian-app",
+        url: "https://github.com/louiefalfonso/mern-nirvasian-app",
+      },
+      tech: [
+        {
+          list: "Frontend: React.js, Tailwind CSS, Headless UI",
+        },
+        {
+          list: "Backend: Node.js, Express.js, MongoDB, GraphQL, Apollo Client",
+        },
+        {
+          list: "Authentication: Json Web Token (JWT)",
+        },
+        {
+          list: "Deployment: Netlify, Render",
+        },
+        {
+          list: "Visualization: Charts.js",
+        },
+      ],
+      features: [
+        {
+          list: "Full-stack Inventory System Platform with Express, MongoDB, GraphQL API, Apollo Client and ReactJs.",
+        },
+        {
+          list: "Use JWT for Authentication and Create a Login System in Node.js, Express, MongoDB and Headless UI with Tailwind CSS for styling UI.",
+        },
+        {
+          list: "Deployed Backend at Render  & Frontend at Netlify",
+        },
+        {
+          list: "Demo Login: username: manageradmin@paskr.com |  password: 87TupR5SvUlNtFY8 ",
+        },
+      ],
+      content:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      content1:
+        "Nirvasian is a robust cloud-based inventory management solution designed to streamline stock tracking, order fulfillment, and overall business efficiency. Leveraging cutting-edge technology, the platform offers a user-friendly interface and powerful features to meet the diverse needs of businesses.",
+      mainImage: NirvasianImg,
+      images: [
+        {
+          image: NirvasianImg1,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg2,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg3,
+          alt: "Nirvasian Inventory System",
+        },
+        {
+          image: NirvasianImg4,
+          alt: "Nirvasian Inventory System",
+        },
+      ],
+      trending: false,
     },
   ],
 };
